@@ -12,6 +12,7 @@ body {
     background-image: url(../images/IT.png);
     background-attachment: fixed;
     background-size: cover;
+    font-family: 'Exo';font-size: 22px;
 }
 h1 {
 
@@ -54,23 +55,23 @@ label {
     position: relative;
     display: block;
     padding: 0 0 0 1em;
-    background: #16a085;
+    background: #124496;
     font-weight: bold;
     line-height: 3;
     cursor: pointer;
 }
 .sub label {
-    background: #2980b9;
+    background: #2f74e2;
 }
 .tab-content {
     max-height: 0;
     overflow: hidden;
-    background: #1abc9c;
+    background: #599cff;
     -webkit-transition: max-height .35s;
     transition: max-height .35s;
 }
 .sub .tab-content {
-    background: #3498db;
+    background: #599cff;
 }
 .tab-content p {
     margin: 1em;
